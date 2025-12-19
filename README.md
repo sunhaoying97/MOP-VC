@@ -1,3 +1,28 @@
+######NEW README######
+#MOP-VC
+### Environment Setup
+1. **Python Version**: The environment is set up with Python 3.12.
+2. **Dependencies**: 
+   - Run `pip install -r requirements.txt` to install the required packages.
+   - Afterward, install **spaCy** and its large English model.
+   - spaCy may encounter issues due to version incompatibilities between `numpy` and spaCy; ensure that versions are compatible.
+
+### Code Configuration
+1. **Path Adjustments**:
+   - Modify the absolute paths in the `pretreatment` section of the code. The paths are currently hardcoded, and need to be changed, especially in the two occurrences after line 270.
+
+2. **Core Logic**:
+   - The main logic is implemented in the `PairMultiHeadAttention` function in `models/components/Sublayer.py`.
+   - There is legacy code with unused functions; always refer to the logic in the `forward` function.
+
+3. **Prediction Logic**:
+   - The prediction logic is in `models/Predictor/pred_tag`, which is responsible for two layers. The final prediction results are computed within the `PairMultiHeadAttention` function.
+
+
+
+######OLD README######
+
+
 # CARE
 
 PyTorch Implementation of our TIP paper:
