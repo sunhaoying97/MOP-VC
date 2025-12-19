@@ -1,5 +1,5 @@
-######NEW README######
-#MOP-VC
+### MOP-VC
+
 ### Environment Setup
 1. **Python Version**: The environment is set up with Python 3.12.
 2. **Dependencies**: 
@@ -20,7 +20,7 @@
 
 
 
-######OLD README######
+###OLD README
 
 
 # CARE
