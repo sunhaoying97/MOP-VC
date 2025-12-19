@@ -251,18 +251,13 @@ Please refer to [notebooks](notebooks).
 Please **[★star]** this repo and **[cite]** the following papers if you feel our code and data useful to your research:
 
 ```
-@ARTICLE{yang2023CARE,
-  author={Yang, Bang and Cao, Meng and Zou, Yuexian},
-  journal={IEEE Transactions on Image Processing}, 
-  title={Concept-Aware Video Captioning: Describing Videos With Effective Prior Information}, 
-  year={2023},
-  volume={32},
-  number={},
-  pages={5366-5378},
-  doi={10.1109/TIP.2023.3307969}
-}
+@article{mop-vc2025,
+  title={MoP-VC: Bridging Syntax and Semantics via Syntactic Knowledge Transfer with Mixture-of-PoS Experts for Video Captioning},
+  author={Haoying Sun, Boyu Qiu, Shuyi Li, Zeyu Xi and Lifang Wu*},
+  year={2025},
+  url={https://sunhaoying97.github.io/MOP-VC/}
 ```
 
 ## Acknowledgement
 
-- This codebase is built upon our previous one, i.e., [CLIP-Captioner](https://github.com/yangbang18/CLIP-Captioner).
+- This codebase is built upon [CARE](https://github.com/yangbang18/CARE), [CLIP-Captioner](https://github.com/yangbang18/CLIP-Captioner).
